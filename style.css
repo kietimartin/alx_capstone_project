@@ -1,0 +1,235 @@
+html, body{
+	margin: auto;
+	padding: auto;
+}
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* start of reusable settings */
+h1 {
+	font-size: 38px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p {
+	font-family: 'Kanit', sans-serif;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+}
+/* Navbar */
+.navlinks {
+	margin: 0%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	font-family: 'Roboto Mono', monospace;
+
+}
+.navlinks .item {
+	margin: 30px;
+	font-size: 20px;
+}
+
+/* Landing section */
+/* the left introductory text covered here */
+.landing {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.lefttext, .rightimage{
+	margin: auto;
+}
+
+.lefttext {
+	width: 50%;
+	font-size: 50px;
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+	height: 500px;
+}
+
+.nametext, .titletext {
+	padding: 7% 2%;
+}
+
+em, strong{
+	color: brown;
+	font-weight: bold;
+}
+
+.rightimage {
+	width: 30%;
+	/* float: right; */
+}
+
+/* applying color to the landing page*/
+.colorforlanding {
+	background-color: #3A6099;
+	margin: 0;
+}
+
+/* ABOUT SECTION */
+/* bg color */
+.bgcolorforabout {
+	background-color: #fff;
+	padding:5% 10%;
+	text-align: center;
+	width: 60%;
+	margin: auto ;
+	border-radius: 20px;
+}
+
+.aboutme {
+	font-size: 25px;
+	padding:4% 0%;
+}
+
+.button {
+	background-color: #3A6099;
+	color: black;
+	font-weight: 600;
+	width: 20%;
+	margin: auto;
+	height: 30px;
+	text-align: center;
+	padding: 20px 15px;
+	border-radius: 40px;
+	font-size: 20px;
+}
+
+.button:hover {
+	border: #3A6099 solid;
+	background-color: #fff;
+	animation: ease-in 100ms;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+/* 	SKILLS SECTION  */
+/* background */
+.bgcolorskills {
+	background-color: #3A6099;
+	padding: 5% 0;
+}
+
+.skills {
+	font-size: 25px;
+	padding:3% 0%;
+	text-align: center;	
+}
+
+.languageboxes {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.language {
+	margin: auto;
+	border-radius: 20px;
+}
+
+.language:hover {
+	border:#fff solid 2px;
+}
+
+/* PROJECTS SECTION */
+.bgcolorprojects {
+	background-color: #fff;
+	text-align: center;
+	padding: 3% 0%;
+}
+
+.projectcards {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.card {
+	width: 23%;
+	margin: auto;
+	background-color: #3A6099;
+	border-radius:20px;
+}
+
+.image{
+	width: 40px;
+	align-self: center;
+	padding: 2% 5%;
+}
+
+.card :a {
+	color: black;
+	padding-bottom: 3%;
+	font-weight: bold;
+}
+
+/* CONTACT SECTION */
+.contact {
+	background-color: #3A6099;
+}
+
+form {
+	width: 30%;
+	margin: auto;
+	background-color: #fff;
+	padding: 5%;
+}
+
+.name, .email, .message, .submit {
+	margin: auto;
+	text-align: center;
+	padding-top: 2% ;
+}
+
