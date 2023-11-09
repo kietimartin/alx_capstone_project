@@ -1,12 +1,32 @@
 # Project Overview:
-Provide a brief description of the project, its purpose, and goals. Explain what problem the project aims to solve or what value it brings to users.
+This is my final project in the ALX 4 months program. it is a portfolio listing my skills and all my  achievements so far it also is linked to my social media accounts for easy access by interested clients.It also has a downloadable copy of my resume.
+
+
+
 # Features and Functionality:
-List the main features and functionalities of the project. Describe how users can interact with the application and any notable aspects or unique selling points.
+It has a dark and light mode and forms for recieving details of potential clients.
+
+
+
 # Technologies Used:
-Specify the technologies, frameworks, and languages used in the project. This can include HTML, CSS, JavaScript, Python, specific libraries, or frameworks like Flask, and any other tools or services utilized.
+Front end technologies were;
+HTML
+CSS
+JAVASCRIPT
+
+Backend technologies were;
+Python
+
+I also used Flask as the webframework
+
 # Screenshots or Demo:
-Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
+
+
+
 # Roadmap and future enhancements:
-Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
+I plan to add more functionallity as this is the first version of this project.
+
+
 # Contact information:
-Include your name, along with contact information or links to personal portfolios or social media profiles.
+For collaboration ,potential clients or even with an idea on improvements i can make you can reach me at
+martinmunguti1011@gmail.com
